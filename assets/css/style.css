@@ -1,0 +1,187 @@
+/* CSS to Apply To All CSS items */
+/* Reason: Border-box all items */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* CSS To Apply To The Body      */
+/* Purpose: Set Background Color */
+body {
+    background-color: #d9dcd6;
+}
+
+/*Header class*/
+/*Reason: Modify the font and coloring of the header*/
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*Header class h1's*/
+/*Reason: Modify h1's in the header class*/
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/*Header h1 .seo class*/
+/*Reason: Modify a specific class for h1's */
+/*in the header class*/
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+/*Header class divs*/
+/*Reason: Modify the div's for the header class*/
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    font-size: 20px;
+}
+
+/*Header class div unordered lists*/
+/*Reason: Modify the Unordered lists in the*/
+/*header class*/
+header nav ul {
+    list-style-type: none;
+}
+
+/*Header class div unordered list, list items*/
+/*Reason: Modify the list items for the ul*/
+/*In the header class*/
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*A CSS*/
+/*Reason: Link formatiing*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*p CSS*/
+/*Set font size for all paragraphs*/
+p {
+    font-size: 16px;
+}
+
+/*Hero class*/
+/*Reason: Set a dividing image as a background*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*float-left class*/
+/*Reason: Float Item To The Left*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*float-right class*/
+/*Reason: Float Item To The Right*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+
+
+/*Aside Container*/
+/*Reason: Create divison for the benefits section*/
+/*Change font and float items to the right*/
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT','Calibri', 'Trebuchet MS', 'sans-serif';
+    background-color: #2589bd;
+}
+
+/*Aside Section*/
+/*Reason: Modify The section tag in the benefits class*/
+aside section {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*aside section h3*/
+/*Reason: Modify the header in the section of the*/
+/*Benefits Class*/
+aside section h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*aside section img*/
+/*Reason: Modify the image in the section of the*/
+/*Benefits class*/
+aside section img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*Content Container*/
+/*Reason: Create divison with a width of 75%*/
+/*Items are inline-block*/
+.content {
+    width: 75%;     
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*content section*/
+/*Reason: Create a division that creates a box for content*/
+.content section{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*content section  h2*/
+/*Reason: Modify the header in the sections of the content class*/
+.content section h2{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*content section  img*/
+/*Reason: Modify the images in the sections of the content class*/
+.content section img{
+    max-height: 200px;
+}
+
+/*Footer Section CSS*/
+/*Reason: Assign font and padding for the footer section*/
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+    text-align: center;
+}
+
+/*Footer Header CSS*/
+/*Reason: Modify the font size of the header in the footer*/
+footer h2 {
+    font-size: 20px;
+}
